@@ -1,0 +1,13 @@
+tightLoop is a simple performance comparison tool.
+
+tightLoop(
+    function() { window.x = 10 * 10; }
+);
+
+{
+    count: 320,
+    elapsed: 4012,
+    mean: 12.5375
+}
+
+See tests/ for more details.
